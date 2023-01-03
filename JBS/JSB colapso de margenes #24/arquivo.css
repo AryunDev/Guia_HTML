@@ -1,0 +1,58 @@
+/*colapso de margenes
+signific que el contacto
+de dos o mas divs o elementos 
+se convinan para formar un unico margen
+si dos o mas elementos se 
+tocan directamente sin padding sin border se tocan
+se combinan para formar un unico argen*/
+
+/*div{
+	width: 250px;
+	height: 250px;
+}
+.uno{
+	background: blue;
+	margin-bottom: 20px;
+}
+.dos{
+	margin-top: 30px;
+	background: red;
+}*/
+
+/* con elementos adyacentes : en este caso los 20 de arriba (margin top)
+junto con los de abajo (margin-bottom)
+no se suman, osea ellos se colapsan o juntan
+para compartir un margen en comun
+
+otro ejersicio fue el de aumentar uno en el caso 
+de class.dos aumentado a 30px
+siendo asi predomina el mayor
+
+es importante recordar que para que este fenomeno
+ocurra estos elementos tienen que estar tocandose!
+
+si ubiera un valor negativo pues se mantiene lo que sobra
+ejemplo 50-30 se mantiene un margen de 20px
+
+si el valor fuera negativo pues se sobrepone uno al otro*/
+
+body{
+	padding: 0;
+	margin: 0;
+}
+#contenedor{
+	width: 500px;
+	min-height: 300px;
+	background: gray;
+	margin: 0 auto;
+	/*border: 1px solid blue;*/
+	padding: 1px;
+}
+#cabecera{
+	height: 60px;
+	background: green;
+	margin-top: 20px;
+}
+/*en el caso de un elemendo dentro de otro
+existen esas dos formas de resolverlo*/
+

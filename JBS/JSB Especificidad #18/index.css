@@ -1,0 +1,20 @@
+#color{
+	color: blue;
+}
+.color{
+	color: red;
+
+}
+h1{
+	color: pink !important;
+}
+
+
+/* 0,0,0,0
+
+1.- estilos en linea
+2.- nº de selectores ID
+3.- nº de selectores clase
+4.- nº de selectores TIPO */
+
+/* h3 p.texto ul#lsitado li a{}*/

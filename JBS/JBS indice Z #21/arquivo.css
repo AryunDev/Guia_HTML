@@ -1,0 +1,25 @@
+.capa1{
+	width: 300px;
+	height: 150px;
+	background: red;
+	position: relative;
+	z-index: 998;
+}
+.capa2{
+	width: 300px;
+	height: 150px;
+	background: blue;
+	position: relative;
+	top: -50px;
+	left: -100px;
+	z-index: 999;
+}
+/*z-index ayuda a alterar el indice
+de apilamiento, cuando un elemento queda 
+arriba de otro por el orden en que estan siendo
+llamados, entonces podemos modificar eso
+con z-index
+
+   funciona para elementos posicionados
+    	osea que su posicion sea qualquer menos
+    	static*/

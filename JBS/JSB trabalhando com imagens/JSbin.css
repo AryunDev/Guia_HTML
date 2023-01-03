@@ -1,0 +1,9 @@
+img{
+	padding: 10px;
+	border: 1px solid red;
+	margin: 10px;
+	background: gray;
+	display: inline;
+	width: 100%;
+	height: auto;
+}

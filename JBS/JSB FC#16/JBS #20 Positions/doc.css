@@ -1,0 +1,51 @@
+
+.uno{
+	width: 250px;
+	height: 50px;
+	background: blue;
+	position: fixed;
+	top: 0;
+}
+
+
+/*.uno{
+	width: 250px;
+	height: 150px;
+	background: blue;
+	position: static;
+	left: 100px;
+	margin-top: 30px;
+	
+}*/
+
+/*static:; sigue el document
+flow del modelo de caja
+(redundante)
+  relative: posiciona en relacion
+  a si mismo y da acceso a
+  top, botom, left y right*/
+
+  /*.dos{
+  	width: 250px;
+  	height: 100px;
+  	background: green;
+  	position: absolute;
+  	top: 50px;
+  	left: 50px;
+  	margin-top: 60px;
+  }*/
+
+  /*absolute trae los mismos
+  itens de relative pero nos 
+  permite posicionar en relacion
+  a un elemento parent en este
+  caso seria el body.
+
+  como esta div esta con posicion absoluta
+  entonces si la ponemos dentro de otro contenedor
+  ella de igual forma se posicionara en relacion 
+  a "parente" y no al contenedor, esa es la 
+  diferencia*/
+
+  /*lo iportante de esto es que posicionamos 
+  top margin botom pero lo hacemos en relacion a que?*/

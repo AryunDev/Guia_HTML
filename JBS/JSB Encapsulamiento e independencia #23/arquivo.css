@@ -1,0 +1,28 @@
+#carrusel{
+	height: 200px;
+	background-color: blue;
+	margin-bottom: 20px;
+}
+
+#from-twitter{
+	height: 100px;
+	background-color: grey;
+	margin-bottom: 20px;
+
+}
+
+#ultimas-noticias{
+
+	height: 150px;
+	background-color: black;
+	margin-bottom: 20px;
+}
+/*este ejersicio es para aprender a mantener
+ciertas caracteristicas como por ejemplo una separacion
+de 20px entre una caja y otra
+independiente de que durante el desarrollo del proyecto
+cambiemos varias vezes la posicion de ellos
+
+la solucion es darle margin-bottom a cada uno de ellos 
+y asi ellos seran encapsulados e independientes uno de otro
+independiente de la posicion que ocupen*/
